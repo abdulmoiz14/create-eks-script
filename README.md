@@ -38,5 +38,25 @@ chmod +x aws-iam-authenticator
 sudo mv aws-iam-authenticator /usr/local/bin/
 aws-iam-authenticator
 ```
+## Setup your user as a default for awscli.
+### We need to setup a user who have systemAdministrator access as a default. 
+#### First see if there is already any user access keys are setup as default
+```
+cd
+cat .aws/credentials
+cat .aws/config
+```
+#### Output
+![image](https://github.com/user-attachments/assets/968a59db-723a-49bb-8d2c-8440b9e74e93)
+If you see any user already setup as default, than we have two option if you want to use this user than please make sure these access keys belongs to the user of your infra otherwise remove these configuration by using below code (only remove deault one).
+```
+nano .aws/credentials
+nano .aws/config
+```
+## Setup the script.sh file according to yourself.
+#### Add CLUSTER_NAME, REGION and NODE_GROUP_NAME in the variable section location at the top of the script. Please dont use micro and small instance type for this setup as these don't fulfill our setup needs.
+![image](https://github.com/user-attachments/assets/5f65c903-bb3e-48e4-88b3-a58370aa481f)
+
+
 
 
