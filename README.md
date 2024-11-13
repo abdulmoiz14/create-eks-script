@@ -65,7 +65,7 @@ sh script.sh
 #### How to get the IP and port use to curl or check it in the browser.
 ![image](https://github.com/user-attachments/assets/9978e8d5-96ee-40f2-bd3a-d8a12993612a)  
 ![image](https://github.com/user-attachments/assets/1a38ee8c-50af-4fd8-8805-a2b505134492)  
-You'll see a line **Nginx is accessible at http://IP:PORT**. Hower your mouse on the link and ctrl+left click or copy it and then paste it to the browser to see the result.  
+You'll see a line **Nginx is accessible at http://IP:PORT**. Hover your mouse on the link and ctrl+left click or copy it and then paste it to the browser to see the result.  
 If the http is accessible it shows a line **OK: Nginx default page is displayed correctly.**  
 If the http is not accessible it shows a line **Error: Nginx default page not displayed correctly.**
 ![image](https://github.com/user-attachments/assets/917906d3-d7b0-4d8b-9d46-2288f7d1ea74)  
