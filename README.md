@@ -47,7 +47,7 @@ cat .aws/credentials
 cat .aws/config
 ```
 #### Output
-![image](https://github.com/user-attachments/assets/968a59db-723a-49bb-8d2c-8440b9e74e93)  
+![image](https://github.com/user-attachments/assets/ebe6a452-3846-4c67-a474-392bd5ba9888)   
 If you see any user already setup as default, than we have two option if you want to use this user than please make sure these access keys belongs to the user of your infra otherwise remove these configuration by using below code (only remove deault one).
 ```
 nano .aws/credentials
