@@ -14,5 +14,12 @@ sudo ./aws/install
 sudo ln -s /usr/local/aws-cli/v2/current/bin/aws /usr/local/bin/aws
 aws --version
 ```
+#### Install kubectl version 1.21.0 as the latest one are not compatible for awscli for eks.
+```
+curl -LO "https://dl.k8s.io/release/v1.21.0/bin/linux/amd64/kubectl"
+chmod +x kubectl
+sudo mv kubectl /usr/local/bin/
+kubectl version --client
+```
 
 
